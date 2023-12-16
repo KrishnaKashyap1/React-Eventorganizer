@@ -1,0 +1,52 @@
+.hero-div{
+    width: 100vw;      /*extra added*/
+    height: 22rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px; 
+    margin-bottom: 1px;
+    background: url("../Components/Assets/Screenshot (16524).png");
+    background-repeat: no-repeat;
+    background-size: 100vw 22rem;
+    gap: 10px;
+}
+.hero-div h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    /*margin-bottom: -10px; */
+
+    /*align-items: center; */
+    /*margin-left: 4vw;
+    margin-right: 2vw; */
+}
+.hero-div hr{
+    width: 7rem;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+    border: 3px solid red;
+}
+.gallery-item{
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ; 
+    margin-top: 6vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    gap: 1vw;
+/*
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 20%;*/
+    flex-wrap: wrap;
+}
+@media (max-width:600px){
+    .gallery-item{
+        grid-template-columns: none;
+    }
+}

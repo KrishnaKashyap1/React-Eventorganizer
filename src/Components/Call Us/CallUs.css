@@ -1,0 +1,28 @@
+.callUs{
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    /*background-color: #000033; */
+    background-color: #FFD700;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1vh;
+    box-shadow: 0 1px 3px -2px black;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+.callUs img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.call img{
+    padding-top: 0.1rem;
+    padding-right: 0.2rem;
+}
+.mail img{
+    padding-top: 0.2rem;
+    padding-right: 0.2rem;
+}

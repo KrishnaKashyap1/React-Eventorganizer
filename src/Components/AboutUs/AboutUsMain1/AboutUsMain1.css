@@ -1,0 +1,261 @@
+.aboutus_main{
+    width: 100%;
+    /*height: 20rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px; 
+    margin-bottom: 2px;
+    /*background: #FFEDE7;  */
+    gap: 30px;
+}
+.main_p{
+    width: 85%;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    /*margin-left: 2rem; */
+    /*margin-right: 5rem; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.main_p p{
+    font-size: 0.9rem;
+}
+.main_div{
+    /*width: auto; */
+    width: 100vw;
+    /*height: 100vh; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /*padding: 0px 0.2rem; */       /*main issue of div extend from screen*/
+    /*margin-bottom: 10px; */
+    background: #FFFFFF;      /*#FFEDE7*/
+    /*gap: 0.2rem;  */
+}
+.main_div h1{
+    color: #000033;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.main_div hr{
+    width: 8rem;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+    border: 3px solid red;
+}
+.child_one{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    /*justify-content: center; */
+    justify-content: space-evenly;
+    margin: 3rem;
+    /*padding: 0px 1rem; */
+    /* margin-bottom: 100px; */
+    /*background: #00416A; */
+    /*gap: 0.1rem; */
+    /*border: 1px solid red;     // for red color border line */
+    /*background-color: antiquewhite;    //color for test */
+
+    flex-wrap: wrap;
+    /*box-shadow: 0px 1px 2px 0.8px black; */
+}
+.child_two{
+    max-width: 22rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /*margin-bottom: 100px; */
+    background: #FFFFFF; 
+    /*gap: 2rem; */
+    /*background-color: aqua;   //color for test */
+}
+.child_three{
+    max-width: 40rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center; */
+    /*justify-content: center; */
+    margin: auto;
+    
+    margin-top: 1rem; 
+    /*background: #00416A; */
+    gap: 0.1rem;
+    /*background-color: aqua;  //color for test */
+}
+.child_three li{
+    font-size: 0.8rem;
+}
+.main_div_one{
+     /*width: auto; */
+     width: 100vw;
+     /*height: 100vh; */
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin: auto;
+     /*padding: 0px 0.2rem; */       /*main issue of div extend from screen*/
+     /*margin-bottom: 10px; */
+     background: #FFFFFF;      /*#FFEDE7*/
+     /*gap: 0.2rem;  */
+}
+.main_div_one h1{
+    color: #000033;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.main_div_one hr{
+    width: 8rem;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+    border: 3px solid red;
+}
+.child_four{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /*justify-content: center; */
+    justify-content: space-evenly;
+    margin: 3rem;
+    /*padding: 0px 1rem; */
+    /* margin-bottom: 100px; */
+    /*background: #00416A; */
+    /*gap: 0.1rem; */
+    /*border: 1px solid red;     // for red color border line */
+    /*background-color: antiquewhite;    //color for test */
+
+    flex-wrap: wrap;
+    /*box-shadow: 0px 1px 2px 0.8px black; */
+}
+.child_five, .child_eight{
+    max-width: 25rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /*margin-bottom: 100px; */
+    background: #FFFFFF; 
+    /*gap: 2rem; */
+    /*background-color: aqua;   //color for test */
+    /*margin-bottom: 14rem;   */
+    margin-top: 0rem; 
+    /*background-color: aqua;  */
+}
+.child_eight img{
+    border-radius: 50%;
+}
+.child_six, .child_nine{
+    max-width: 30rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center; */
+    /*justify-content: center; */
+    margin: auto;
+    
+     
+    /*background: #00416A; */
+    gap: 0.1rem;
+    /*background-color: aqua;  //color for test */
+}
+.child_six li{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.child_nine li{
+    font-size: 0.8rem;
+}
+.child_nine p{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.main_div_two{
+    /*width: auto; */
+    width: 100vw;
+    /*height: 100vh; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    /*padding: 0px 0.2rem; */       /*main issue of div extend from screen*/
+    /*margin-bottom: 10px; */
+    background: #FFFFFF;      /*#FFEDE7*/
+    /*gap: 0.2rem;  */
+}
+.main_div_two h1{
+    color: #000033;
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.main_div_two hr{
+    width: 8rem;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+    border: 3px solid red;
+}
+.child_seven{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    /*justify-content: center; */
+    justify-content: space-evenly;
+    margin: 3rem;
+    /*padding: 0px 1rem; */
+    /* margin-bottom: 100px; */
+    /*background: #00416A; */
+    /*gap: 0.1rem; */
+    /*border: 1px solid red;     // for red color border line */
+    /*background-color: antiquewhite;    //color for test */
+
+    flex-wrap: wrap;
+    /*box-shadow: 0px 1px 2px 0.8px black; */
+}
+
+
+
+@media screen and (max-width:600px){
+    /*.child_one{
+        height: 120vh;
+    } */
+    .child_three{
+        height: 40rem;
+        max-width: 22rem;
+    }
+    .child_four{
+        height: 30rem;
+        max-width: 22rem;
+    }
+    .child_six{
+        margin-top: 3rem;
+    }
+    .child_seven{
+        height: 140vh;
+    }
+}

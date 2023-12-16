@@ -1,0 +1,34 @@
+.about_hero{
+    width: 100vw;      /*extra added*/
+    height: 22rem;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 0px; 
+    margin-bottom: 1px;
+    background: url("../../Assets/Screenshot (16525).png");
+    background-repeat: no-repeat;
+    background-size: 100vw 22rem;
+    gap: 10px;
+}
+
+.about_hero h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    /*margin-bottom: -10px; */
+
+    /*align-items: center; */
+    /*margin-left: 4vw;
+    margin-right: 2vw; */
+}
+.about_hero hr{
+    width: 7rem;
+    height: 1px;
+    border-radius: 10px;
+    background-color: red;
+    border: 3px solid red;
+}

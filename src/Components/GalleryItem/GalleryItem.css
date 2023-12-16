@@ -1,0 +1,15 @@
+.gallery_item{
+    /*width: 96%; */
+    width: 27vw;
+    /*background-color: aqua; */
+    cursor: pointer;
+}
+.gallery_item img{
+    width: 100%;
+}
+
+@media (max-width:600px){
+    .gallery_item{
+        width: 85vw;
+    }
+}    
